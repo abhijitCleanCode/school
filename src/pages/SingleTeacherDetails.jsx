@@ -128,25 +128,25 @@ const SingleTeacherDetails = () => {
                 className="p-3 rounded-md bg-lamaPurpleLight"
                 href={`/list/students?teacherId=${teacher.id}`}
               >
-                Teacher&apos;s Students
+                Teacher&apos;s Subjects
               </Link>
               <Link
                 className="p-3 rounded-md bg-lamaYellowLight"
                 href={`/list/lessons?teacherId=${teacher.id}`}
               >
-                Teacher&apos;s Lessons
+                Teacher&apos;s Payment Status
               </Link>
               <Link
                 className="p-3 rounded-md bg-pink-50"
                 href={`/list/exams?teacherId=${teacher.id}`}
               >
-                Teacher&apos;s Exams
+                Teacher&apos;s Salary Details
               </Link>
               <Link
                 className="p-3 rounded-md bg-lamaSkyLight"
                 href={`/list/assignments?teacherId=${teacher.id}`}
               >
-                Teacher&apos;s Assignments
+                Teacher&apos;s Qualification
               </Link>
             </div>
           </div>

@@ -11,8 +11,9 @@ import {
   FaTrophy,
   FaCircleExclamation,
   FaFilePen,
+  FaUser,
 } from "react-icons/fa6";
-import { HiSpeakerphone } from "react-icons/hi";
+import { HiSpeakerphone, HiLogout } from "react-icons/hi";
 import { PiStudentBold } from "react-icons/pi";
 import { MdClass } from "react-icons/md";
 
@@ -143,29 +144,23 @@ const menuItems = [
       //   },
     ],
   },
-  //   {
-  //     title: "OTHER",
-  //     items: [
-  //       {
-  //         icon: "/profile.png",
-  //         label: "Profile",
-  //         href: "/profile",
-  //         visible: ["admin", "teacher", "student", "parent"],
-  //       },
-  //       {
-  //         icon: "/setting.png",
-  //         label: "Settings",
-  //         href: "/settings",
-  //         visible: ["admin", "teacher", "student", "parent"],
-  //       },
-  //       {
-  //         icon: "/logout.png",
-  //         label: "Logout",
-  //         href: "/logout",
-  //         visible: ["admin", "teacher", "student", "parent"],
-  //       },
-  //     ],
-  //   },
+  {
+    title: "OTHER",
+    items: [
+      {
+        icon: FaUser,
+        label: "Profile",
+        href: "/profile",
+        visible: ["admin", "teacher", "student", "parent"],
+      },
+      {
+        icon: HiLogout,
+        label: "Logout",
+        href: "/logout",
+        visible: ["admin", "teacher", "student", "parent"],
+      },
+    ],
+  },
 ];
 
 const Menu = () => {

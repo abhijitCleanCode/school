@@ -1,0 +1,75 @@
+export const studentData = [
+  {
+    id: 1,
+    name: "John Doe",
+    class: "Class 1",
+    studentId: "123456789",
+    to: "/students/details/123456789",
+  },
+  {
+    id: 1,
+    name: "John Doe",
+    class: "Class 1",
+    studentId: "123456789",
+  },
+  {
+    id: 1,
+    name: "John Doe",
+    class: "Class 1",
+    studentId: "123456789",
+  },
+  {
+    id: 1,
+    name: "John Doe",
+    class: "Class 1",
+    studentId: "123456789",
+  },
+  {
+    id: 1,
+    name: "John Doe",
+    class: "Class 1",
+    studentId: "123456789",
+  },
+  {
+    id: 1,
+    name: "John Doe",
+    class: "Class 1",
+    studentId: "123456789",
+  },
+  {
+    id: 1,
+    name: "John Doe",
+    class: "Class 1",
+    studentId: "123456789",
+  },
+  {
+    id: 1,
+    name: "John Doe",
+    class: "Class 1",
+    studentId: "123456789",
+  },
+  {
+    id: 1,
+    name: "John Doe",
+    class: "Class 1",
+    studentId: "123456789",
+  },
+  {
+    id: 1,
+    name: "John Doe",
+    class: "Class 1",
+    studentId: "123456789",
+  },
+  {
+    id: 1,
+    name: "John Doe",
+    class: "Class 1",
+    studentId: "123456789",
+  },
+  {
+    id: 1,
+    name: "Jane Smith",
+    class: "Class 5",
+    studentId: "987654321",
+  },
+];
